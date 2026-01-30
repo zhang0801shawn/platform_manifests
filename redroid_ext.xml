@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="redroid-rockchip" fetch="https://github.com/redroid-rockchip/" revision="redroid-12.0.0" />
-
-    <remove-project name="platform/bionic" />
-    <project path="bionic" name="aosp_bionic" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
-    <remove-project name="platform/hardware/interfaces" />
-    <project path="hardware/interfaces" name="aosp_hardware_interfaces" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
-    <remove-project name="platform_frameworks_native" />
-    <project path="frameworks/native" name="aosp_frameworks_native" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
-
-    <remove-project name="device_redroid" />
-    <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid-rockchip" />
-    <remove-project name="vendor_redroid" />
-    <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="redroid-rockchip" revision="master" />
-    <remove-project name="redroid-omx" />
-    <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="redroid-rockchip" revision="master" />
-
-    <project path="vendor/magisk" name="vendor_magisk" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project path="vendor/gapps" name="vendor_gapps" revision="sigma" remote="mtg" />
-
     <remote name="mtg" fetch="https://gitlab.com/MindTheGapps/" />
     <project path="vendor/redroid_ext" name="vendor_redroid_ext" groups="redroid" remote="redroid-rockchip" revision="master" />
-
-    <include name="rockchip.xml" />
-
+    <project path="vendor/magisk" name="vendor_magisk" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
+    <project path="vendor/gapps" name="vendor_gapps" revision="sigma" remote="mtg" />
 </manifest>
