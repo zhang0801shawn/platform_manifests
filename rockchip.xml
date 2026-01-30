@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- 
     <remote name="rk" fetch="https://gitlab.com/rockchip_android_s/" revision="Android12_RK3588_Radxa_rk10" />
+    <remote name="rk2" fetch="https://github.com/redroid-rockchip/" />
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" groups="redroid" remote="rk" />
@@ -17,23 +17,6 @@
     <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" groups="redroid" remote="rk" />
     <project path="hardware/rockchip/librga" name="linux/linux-rga" remote="rk" />
     <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk"/>
-    -->
-
-    <remove-project name="platform/external/libdrm" />
-    <project name="orange_pi_5_plus_external_libdrm" path="external/libdrm" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-
-    <project name="orange_pi_5_plus_device_rockchip_common" path="device/rockchip/common" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_vendor_rockchip_common" path="vendor/rockchip/common" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_libbaseparameter" path="hardware/rockchip/libbaseparameter" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-
-    <project name="orange_pi_5_plus_hardware_rockchip_libgralloc_bifrost" path="hardware/rockchip/libgralloc/bifrost" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_libgralloc_midgard" path="hardware/rockchip/libgralloc/midgard" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_libgralloc_utgard" path="hardware/rockchip/libgralloc/utgard" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_librga" path="hardware/rockchip/librga" remote="redroid-rockchip" revision="master" clone-depth="1" />
-    <project name="orange_pi_5_plus_hardware_rockchip_librkvpu" path="hardware/rockchip/librkvpu" remote="redroid-rockchip" revision="master" clone-depth="1"/>
-
-    <project name="rockchip-android-hardware-rk29-libgralloc_ump" path="hardware/rk29/libgralloc_ump" groups="redroid" remote="redroid-rockchip" revision="p-rk3399pro" />
+    <project name="rockchip-android-hardware-rk29-libgralloc_ump" path="hardware/rk29/libgralloc_ump" groups="redroid" remote="rk2" revision="p-rk3399pro" />
 
 </manifest>

@@ -45,9 +45,10 @@
     <project path="hardware/redroid/c2" name="redroid-c2" groups="redroid" remote="redroid" revision="master" />
     <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="redroid-rockchip" revision="master" />
     <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="redroid-rockchip" revision="master" />
+    <project path="vendor/redroid_ext" name="vendor_redroid_ext" groups="redroid" remote="redroid-rockchip" revision="master" />
 
     <include name="external.xml" />
-    <include name="redroid_ext.xml" />
     <include name="rockchip.xml" /> 
+    <include name="rockchip_ext.xml" />
 
 </manifest>
