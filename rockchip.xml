@@ -2,7 +2,6 @@
 <manifest>
     <remote name="rk" fetch="https://gitlab.com/rockchip_android_r/" revision="Android11_Radxa_rk10.1" />
     <remote name="rk2" fetch="https://github.com/redroid-rockchip/" />
-    <remote name="rk3" fetch="https://gitlab.com/rockchip_android_s/" revision="Android12_RK3588_Radxa_rk10" />
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" groups="redroid" remote="rk" />
@@ -10,7 +9,6 @@
     <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" groups="redroid" remote="rk" clone-depth="1" />
     <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" groups="redroid" remote="rk" />
     <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" groups="redroid" remote="rk" />
-    <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" groups="redroid" remote="rk3" />
 
     <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" groups="redroid" remote="rk" />
     <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" groups="redroid" remote="rk" />
