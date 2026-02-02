@@ -2,7 +2,7 @@
 <manifest>
     <remote name="rk" fetch="https://gitlab.com/rockchip_android_r/" revision="Android11_Radxa_rk10.1" />
     <remote name="rk2" fetch="https://github.com/redroid-rockchip/" />
-    <remote name="rk" fetch="https://gitlab.com/rockchip_android_s/" revision="Android12_RK3588_Radxa_rk10" />
+    <remote name="rk3" fetch="https://gitlab.com/rockchip_android_s/" revision="Android12_RK3588_Radxa_rk10" />
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" groups="redroid" remote="rk" />
