@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="rk" fetch="https://gitlab.com/rockchip_android_r/" revision="Android11_Radxa_rk10.1" />
+    <remote name="rk2" fetch="https://github.com/redroid-rockchip/" />
+    <remote name="rk" fetch="https://gitlab.com/rockchip_android_s/" revision="Android12_RK3588_Radxa_rk10" />
+
+    <remove-project name="platform/external/libdrm" />
+    <project name="platform/external/libdrm" path="external/libdrm" groups="redroid" remote="rk" />
+
+    <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" groups="redroid" remote="rk" clone-depth="1" />
+    <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" groups="redroid" remote="rk" />
+    <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" groups="redroid" remote="rk" />
+    <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" groups="redroid" remote="rk3" />
+
+    <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" groups="redroid" remote="rk" />
+    <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" groups="redroid" remote="rk" />
+    <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" groups="redroid" remote="rk" />
+    <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" groups="redroid" remote="rk3" />
+    <project path="hardware/rockchip/librga" name="linux/linux-rga" remote="rk" />
+    <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk"/>
+    <project name="rockchip-android-hardware-rk29-libgralloc_ump" path="hardware/rk29/libgralloc_ump" groups="redroid" remote="rk2" revision="p-rk3399pro" />
+
+</manifest>
