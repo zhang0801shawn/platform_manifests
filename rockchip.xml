@@ -13,7 +13,6 @@
     <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" groups="redroid" remote="rk" />
     <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" groups="redroid" remote="rk" />
     <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" groups="redroid" remote="rk" />
-    <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" groups="redroid" remote="rk3" />
     <project path="hardware/rockchip/librga" name="linux/linux-rga" remote="rk" />
     <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk"/>
     <project name="rockchip-android-hardware-rk29-libgralloc_ump" path="hardware/rk29/libgralloc_ump" groups="redroid" remote="rk2" revision="p-rk3399pro" />
